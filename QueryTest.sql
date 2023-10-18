@@ -1,0 +1,1 @@
+SELECT s.id, s.name, p.parent_name FROM student s JOIN student_parent p ON s.parent_id=p.parent_id;
